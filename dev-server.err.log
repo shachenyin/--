@@ -2,3 +2,480 @@
 ⚠ Fast Refresh had to perform a full reload when oject-tracker\\components\\layout\\theme-toggle.tsx","ids":["ThemeToggle"]}, oject-tracker\\components\\projects\\create-project-form.tsx","ids":["CreateProjectForm"]}, oject-tracker\\components\\projects\\project-priority-control.tsx","ids":["ProjectPriorityControl"]}, oject-tracker\\node_modules\\next\\dist\\client\\app-dir\\link.js","ids":[]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
 ⚠ Fast Refresh had to perform a full reload when oject-tracker\\components\\layout\\theme-toggle.tsx","ids":["ThemeToggle"]}, oject-tracker\\components\\tasks\\task-priority-board.tsx","ids":["TaskPriorityBoard"]}, oject-tracker\\node_modules\\next\\dist\\client\\app-dir\\link.js","ids":[]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
 ⚠ Fast Refresh had to perform a full reload when oject-tracker\\components\\layout\\theme-toggle.tsx","ids":["ThemeToggle"]}, oject-tracker\\components\\ui\\label.tsx","ids":["Label"]}, oject-tracker\\node_modules\\next\\dist\\client\\app-dir\\link.js","ids":[]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ ./lib/services/teacher.ts
+Attempted import error: 'getDemoStudentProgressReports' is not exported from '@/lib/demo-data' (imported as 'getDemoStudentProgressReports').
+
+Import trace for requested module:
+./lib/services/teacher.ts
+./app/teacher/page.tsx
+⨯ ./app/projects/page.tsx
+Error:   x Expected '</', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:95:1]
+ 92 |               />
+ 93 |             );
+ 94 |           })}
+ 95 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+    :                                   ^
+ 96 |         </section>
+ 97 |       </div>
+ 98 |     </AppShell>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/projects/page.tsx
+[browser] ./app/projects/page.tsx
+Error:   x Expected '</', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:95:1]
+ 92 |               />
+ 93 |             );
+ 94 |           })}
+ 95 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+    :                                   ^
+ 96 |         </section>
+ 97 |       </div>
+ 98 |     </AppShell>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/projects/page.tsx 
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[browser] ./app/projects/page.tsx
+Error:   x Expected '</', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:95:1]
+ 92 |               />
+ 93 |             );
+ 94 |           })}
+ 95 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+    :                                   ^
+ 96 |         </section>
+ 97 |       </div>
+ 98 |     </AppShell>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/projects/page.tsx 
+⨯ ./app/projects/page.tsx
+Error:   x Expected '</', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:95:1]
+ 92 |               />
+ 93 |             );
+ 94 |           })}
+ 95 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+    :                                   ^
+ 96 |         </section>
+ 97 |       </div>
+ 98 |     </AppShell>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/projects/page.tsx
+⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[browser] Uncaught ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   x Expected '</', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:95:1]
+ 92 |               />
+ 93 |             );
+ 94 |           })}
+ 95 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+    :                                   ^
+ 96 |         </section>
+ 97 |       </div>
+ 98 |     </AppShell>
+    `----
+
+
+Caused by:
+    Syntax Error
+[browser] ./app/projects/page.tsx
+Error:   x Expected '</', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:95:1]
+ 92 |               />
+ 93 |             );
+ 94 |           })}
+ 95 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+    :                                   ^
+ 96 |         </section>
+ 97 |       </div>
+ 98 |     </AppShell>
+    `----
+
+Caused by:
+    Syntax Error 
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\Codex Project 学生进度更新\student-project-tracker\.next\dev\cache\webpack\client-development-fallback\0.pack.gz_' -> 'D:\Codex Project 学生进度更新\student-project-tracker\.next\dev\cache\webpack\client-development-fallback\0.pack.gz'
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] ./app/projects/page.tsx
+Error:   x Expected '</', got 'ident'
+     ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:97:1]
+  94 |               />
+  95 |             );
+  96 |           })}
+  97 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+     :                                   ^
+  98 |         </section>
+  99 |       </div>
+ 100 |     </AppShell>
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/projects/page.tsx 
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] ./app/projects/page.tsx
+Error:   x Expected '</', got 'ident'
+     ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:97:1]
+  94 |               />
+  95 |             );
+  96 |           })}
+  97 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+     :                                   ^
+  98 |         </section>
+  99 |       </div>
+ 100 |     </AppShell>
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/projects/page.tsx 
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ./app/projects/page.tsx
+Error:   x Expected '</', got 'ident'
+     ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:97:1]
+  94 |               />
+  95 |             );
+  96 |           })}
+  97 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+     :                                   ^
+  98 |         </section>
+  99 |       </div>
+ 100 |     </AppShell>
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/projects/page.tsx
+[browser] Uncaught ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   x Expected '</', got 'ident'
+     ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:97:1]
+  94 |               />
+  95 |             );
+  96 |           })}
+  97 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+     :                                   ^
+  98 |         </section>
+  99 |       </div>
+ 100 |     </AppShell>
+     `----
+
+
+Caused by:
+    Syntax Error
+[browser] ./app/projects/page.tsx
+Error:   x Expected '</', got 'ident'
+     ,-[D:\Codex Project 学生进度更新\student-project-tracker\app\projects\page.tsx:97:1]
+  94 |               />
+  95 |             );
+  96 |           })}
+  97 |           {!projects.length ? (`r`n            <p className="text-sm text-muted-foreground">`r`n              {profile.role === "student" ? "暂无项目，可点击右上角新建项目。" : "暂无项目。"}`r`n            </p>`r`n          ) : null}
+     :                                   ^
+  98 |         </section>
+  99 |       </div>
+ 100 |     </AppShell>
+     `----
+
+Caused by:
+    Syntax Error 
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] ./components/system-log/system-log-table.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Codex Project 学生进度更新\student-project-tracker\components\system-log\system-log-table.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/system-log/system-log-table.tsx
+./app/system-log/page.tsx 
+⨯ ./components/system-log/system-log-table.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Codex Project 学生进度更新\student-project-tracker\components\system-log\system-log-table.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/system-log/system-log-table.tsx
+./app/system-log/page.tsx
+[browser] Uncaught ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Codex Project 学生进度更新\student-project-tracker\components\system-log\system-log-table.tsx
+    1: The system cannot find the file specified. (os error 2)
+[browser] ./components/system-log/system-log-table.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Codex Project 学生进度更新\student-project-tracker\components\system-log\system-log-table.tsx
+    1: The system cannot find the file specified. (os error 2) 
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TableBody`. It was passed a child from SystemLogTable. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TableBody`. It was passed a child from SystemLogTable. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TableBody`. It was passed a child from SystemLogTable. See https://react.dev/link/warning-keys for more information.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+Each child in a list should have a unique "key" prop.
+
+Check the render method of `TableBody`. It was passed a child from SystemLogTable. See https://react.dev/link/warning-keys for more information.
+[browser] Each child in a list should have a unique "key" prop.
+
+Check the render method of `TableBody`. It was passed a child from SystemLogTable. See https://react.dev/link/warning-keys for more information. 
+[browser] ./components/student/future-planning-board.tsx
+Error:   x Expected ',', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx:31:1]
+ 28 | 
+ 29 |   return {
+ 30 |     strategy: `鍥寸粫銆?{project.title}銆嶅綋鍓?${project.progress}% 鐨勫畬鎴愬害锛屼紭鍏堟妸 ${project.stage} 闃舵鐨勬牳蹇冮棴鐜仛绋炽€傚厛淇濊瘉鍏抽敭鍔熻兘鍙紨绀恒€佸彲澶嶇敤銆佸彲娌夋穩锛屽啀鏍规嵁鑰佸笀鍜屽叕鍙稿弽棣堥€愭鎵╁睍銆俙,
+ 31 |     horizontal: `妯悜涓婏紝灏嗛」鐩腑鍙鐢ㄧ殑鑳藉姏鎷嗘垚閫氱敤妯″潡锛屼緥濡傛祦绋嬬鐞嗐€佹暟鎹湅鏉裤€佹彁閱掗€氱煡銆侀檮浠舵矇娣€鍜屾潈闄愬崗浣滐紝鏈潵鍙互杩佺Щ鍒扮浉杩戜笟鍔＄嚎鎴栧叾浠栭儴闂ㄥ満鏅€俙,
+    :                  ^^
+ 32 |     vertical: `绾靛悜涓婏紝缁х画娣辨寲璇ラ」鐩墍鍦ㄤ笟鍔″満鏅紝浠?MVP 閫愭鎺ㄨ繘鍒版暟鎹垎鏋愩€佽川閲忚瘎浼般€佽嚜鍔ㄥ寲杩愯惀鍜岄暱鏈熺淮鎶ゆ満鍒讹紝褰㈡垚鏇村畬鏁寸殑鍏徃涓氬姟瑙ｅ喅鏂规銆?{priority === "P0" ? "璇ラ」鐩紭鍏堢骇杈冮珮锛屽簲浼樺厛褰㈡垚鍙鍒舵渚嬨€? : ""}`
+ 33 |   };
+ 34 | }
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/student/future-planning-board.tsx 
+[browser] ./components/student/future-planning-board.tsx
+Error:   x Expected ',', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx:31:1]
+ 28 | 
+ 29 |   return {
+ 30 |     strategy: `鍥寸粫銆?{project.title}銆嶅綋鍓?${project.progress}% 鐨勫畬鎴愬害锛屼紭鍏堟妸 ${project.stage} 闃舵鐨勬牳蹇冮棴鐜仛绋炽€傚厛淇濊瘉鍏抽敭鍔熻兘鍙紨绀恒€佸彲澶嶇敤銆佸彲娌夋穩锛屽啀鏍规嵁鑰佸笀鍜屽叕鍙稿弽棣堥€愭鎵╁睍銆俙,
+ 31 |     horizontal: `妯悜涓婏紝灏嗛」鐩腑鍙鐢ㄧ殑鑳藉姏鎷嗘垚閫氱敤妯″潡锛屼緥濡傛祦绋嬬鐞嗐€佹暟鎹湅鏉裤€佹彁閱掗€氱煡銆侀檮浠舵矇娣€鍜屾潈闄愬崗浣滐紝鏈潵鍙互杩佺Щ鍒扮浉杩戜笟鍔＄嚎鎴栧叾浠栭儴闂ㄥ満鏅€俙,
+    :                  ^^
+ 32 |     vertical: `绾靛悜涓婏紝缁х画娣辨寲璇ラ」鐩墍鍦ㄤ笟鍔″満鏅紝浠?MVP 閫愭鎺ㄨ繘鍒版暟鎹垎鏋愩€佽川閲忚瘎浼般€佽嚜鍔ㄥ寲杩愯惀鍜岄暱鏈熺淮鎶ゆ満鍒讹紝褰㈡垚鏇村畬鏁寸殑鍏徃涓氬姟瑙ｅ喅鏂规銆?{priority === "P0" ? "璇ラ」鐩紭鍏堢骇杈冮珮锛屽簲浼樺厛褰㈡垚鍙鍒舵渚嬨€? : ""}`
+ 33 |   };
+ 34 | }
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/student/future-planning-board.tsx
+./app/student/page.tsx 
+⨯ ./components/student/future-planning-board.tsx
+Error:   x Expected ',', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx:31:1]
+ 28 | 
+ 29 |   return {
+ 30 |     strategy: `鍥寸粫銆?{project.title}銆嶅綋鍓?${project.progress}% 鐨勫畬鎴愬害锛屼紭鍏堟妸 ${project.stage} 闃舵鐨勬牳蹇冮棴鐜仛绋炽€傚厛淇濊瘉鍏抽敭鍔熻兘鍙紨绀恒€佸彲澶嶇敤銆佸彲娌夋穩锛屽啀鏍规嵁鑰佸笀鍜屽叕鍙稿弽棣堥€愭鎵╁睍銆俙,
+ 31 |     horizontal: `妯悜涓婏紝灏嗛」鐩腑鍙鐢ㄧ殑鑳藉姏鎷嗘垚閫氱敤妯″潡锛屼緥濡傛祦绋嬬鐞嗐€佹暟鎹湅鏉裤€佹彁閱掗€氱煡銆侀檮浠舵矇娣€鍜屾潈闄愬崗浣滐紝鏈潵鍙互杩佺Щ鍒扮浉杩戜笟鍔＄嚎鎴栧叾浠栭儴闂ㄥ満鏅€俙,
+    :                  ^^
+ 32 |     vertical: `绾靛悜涓婏紝缁х画娣辨寲璇ラ」鐩墍鍦ㄤ笟鍔″満鏅紝浠?MVP 閫愭鎺ㄨ繘鍒版暟鎹垎鏋愩€佽川閲忚瘎浼般€佽嚜鍔ㄥ寲杩愯惀鍜岄暱鏈熺淮鎶ゆ満鍒讹紝褰㈡垚鏇村畬鏁寸殑鍏徃涓氬姟瑙ｅ喅鏂规銆?{priority === "P0" ? "璇ラ」鐩紭鍏堢骇杈冮珮锛屽簲浼樺厛褰㈡垚鍙鍒舵渚嬨€? : ""}`
+ 33 |   };
+ 34 | }
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/student/future-planning-board.tsx
+./app/student/page.tsx
+[browser] Uncaught ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   x Expected ',', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx:31:1]
+ 28 | 
+ 29 |   return {
+ 30 |     strategy: `鍥寸粫銆?{project.title}銆嶅綋鍓?${project.progress}% 鐨勫畬鎴愬害锛屼紭鍏堟妸 ${project.stage} 闃舵鐨勬牳蹇冮棴鐜仛绋炽€傚厛淇濊瘉鍏抽敭鍔熻兘鍙紨绀恒€佸彲澶嶇敤銆佸彲娌夋穩锛屽啀鏍规嵁鑰佸笀鍜屽叕鍙稿弽棣堥€愭鎵╁睍銆俙,
+ 31 |     horizontal: `妯悜涓婏紝灏嗛」鐩腑鍙鐢ㄧ殑鑳藉姏鎷嗘垚閫氱敤妯″潡锛屼緥濡傛祦绋嬬鐞嗐€佹暟鎹湅鏉裤€佹彁閱掗€氱煡銆侀檮浠舵矇娣€鍜屾潈闄愬崗浣滐紝鏈潵鍙互杩佺Щ鍒扮浉杩戜笟鍔＄嚎鎴栧叾浠栭儴闂ㄥ満鏅€俙,
+    :                  ^^
+ 32 |     vertical: `绾靛悜涓婏紝缁х画娣辨寲璇ラ」鐩墍鍦ㄤ笟鍔″満鏅紝浠?MVP 閫愭鎺ㄨ繘鍒版暟鎹垎鏋愩€佽川閲忚瘎浼般€佽嚜鍔ㄥ寲杩愯惀鍜岄暱鏈熺淮鎶ゆ満鍒讹紝褰㈡垚鏇村畬鏁寸殑鍏徃涓氬姟瑙ｅ喅鏂规銆?{priority === "P0" ? "璇ラ」鐩紭鍏堢骇杈冮珮锛屽簲浼樺厛褰㈡垚鍙鍒舵渚嬨€? : ""}`
+ 33 |   };
+ 34 | }
+    `----
+
+
+Caused by:
+    Syntax Error
+[browser] ./components/student/future-planning-board.tsx
+Error:   x Expected ',', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx:31:1]
+ 28 | 
+ 29 |   return {
+ 30 |     strategy: `鍥寸粫銆?{project.title}銆嶅綋鍓?${project.progress}% 鐨勫畬鎴愬害锛屼紭鍏堟妸 ${project.stage} 闃舵鐨勬牳蹇冮棴鐜仛绋炽€傚厛淇濊瘉鍏抽敭鍔熻兘鍙紨绀恒€佸彲澶嶇敤銆佸彲娌夋穩锛屽啀鏍规嵁鑰佸笀鍜屽叕鍙稿弽棣堥€愭鎵╁睍銆俙,
+ 31 |     horizontal: `妯悜涓婏紝灏嗛」鐩腑鍙鐢ㄧ殑鑳藉姏鎷嗘垚閫氱敤妯″潡锛屼緥濡傛祦绋嬬鐞嗐€佹暟鎹湅鏉裤€佹彁閱掗€氱煡銆侀檮浠舵矇娣€鍜屾潈闄愬崗浣滐紝鏈潵鍙互杩佺Щ鍒扮浉杩戜笟鍔＄嚎鎴栧叾浠栭儴闂ㄥ満鏅€俙,
+    :                  ^^
+ 32 |     vertical: `绾靛悜涓婏紝缁х画娣辨寲璇ラ」鐩墍鍦ㄤ笟鍔″満鏅紝浠?MVP 閫愭鎺ㄨ繘鍒版暟鎹垎鏋愩€佽川閲忚瘎浼般€佽嚜鍔ㄥ寲杩愯惀鍜岄暱鏈熺淮鎶ゆ満鍒讹紝褰㈡垚鏇村畬鏁寸殑鍏徃涓氬姟瑙ｅ喅鏂规銆?{priority === "P0" ? "璇ラ」鐩紭鍏堢骇杈冮珮锛屽簲浼樺厛褰㈡垚鍙鍒舵渚嬨€? : ""}`
+ 33 |   };
+ 34 | }
+    `----
+
+Caused by:
+    Syntax Error 
+[browser] ./components/student/future-planning-board.tsx
+Error:   x Expected ',', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx:31:1]
+ 28 | 
+ 29 |   return {
+ 30 |     strategy: `鍥寸粫銆?{project.title}銆嶅綋鍓?${project.progress}% 鐨勫畬鎴愬害锛屼紭鍏堟妸 ${project.stage} 闃舵鐨勬牳蹇冮棴鐜仛绋炽€傚厛淇濊瘉鍏抽敭鍔熻兘鍙紨绀恒€佸彲澶嶇敤銆佸彲娌夋穩锛屽啀鏍规嵁鑰佸笀鍜屽叕鍙稿弽棣堥€愭鎵╁睍銆俙,
+ 31 |     horizontal: `妯悜涓婏紝灏嗛」鐩腑鍙鐢ㄧ殑鑳藉姏鎷嗘垚閫氱敤妯″潡锛屼緥濡傛祦绋嬬鐞嗐€佹暟鎹湅鏉裤€佹彁閱掗€氱煡銆侀檮浠舵矇娣€鍜屾潈闄愬崗浣滐紝鏈潵鍙互杩佺Щ鍒扮浉杩戜笟鍔＄嚎鎴栧叾浠栭儴闂ㄥ満鏅€俙,
+    :                  ^^
+ 32 |     vertical: `绾靛悜涓婏紝缁х画娣辨寲璇ラ」鐩墍鍦ㄤ笟鍔″満鏅紝浠?MVP 閫愭鎺ㄨ繘鍒版暟鎹垎鏋愩€佽川閲忚瘎浼般€佽嚜鍔ㄥ寲杩愯惀鍜岄暱鏈熺淮鎶ゆ満鍒讹紝褰㈡垚鏇村畬鏁寸殑鍏徃涓氬姟瑙ｅ喅鏂规銆?{priority === "P0" ? "璇ラ」鐩紭鍏堢骇杈冮珮锛屽簲浼樺厛褰㈡垚鍙鍒舵渚嬨€? : ""}`
+ 33 |   };
+ 34 | }
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/student/future-planning-board.tsx
+./app/student/page.tsx 
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] ./components/student/future-planning-board.tsx
+Error:   x Expected ',', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx:31:1]
+ 28 | 
+ 29 |   return {
+ 30 |     strategy: `鍥寸粫銆?{project.title}銆嶅綋鍓?${project.progress}% 鐨勫畬鎴愬害锛屼紭鍏堟妸 ${project.stage} 闃舵鐨勬牳蹇冮棴鐜仛绋炽€傚厛淇濊瘉鍏抽敭鍔熻兘鍙紨绀恒€佸彲澶嶇敤銆佸彲娌夋穩锛屽啀鏍规嵁鑰佸笀鍜屽叕鍙稿弽棣堥€愭鎵╁睍銆俙,
+ 31 |     horizontal: `妯悜涓婏紝灏嗛」鐩腑鍙鐢ㄧ殑鑳藉姏鎷嗘垚閫氱敤妯″潡锛屼緥濡傛祦绋嬬鐞嗐€佹暟鎹湅鏉裤€佹彁閱掗€氱煡銆侀檮浠舵矇娣€鍜屾潈闄愬崗浣滐紝鏈潵鍙互杩佺Щ鍒扮浉杩戜笟鍔＄嚎鎴栧叾浠栭儴闂ㄥ満鏅€俙,
+    :                  ^^
+ 32 |     vertical: `绾靛悜涓婏紝缁х画娣辨寲璇ラ」鐩墍鍦ㄤ笟鍔″満鏅紝浠?MVP 閫愭鎺ㄨ繘鍒版暟鎹垎鏋愩€佽川閲忚瘎浼般€佽嚜鍔ㄥ寲杩愯惀鍜岄暱鏈熺淮鎶ゆ満鍒讹紝褰㈡垚鏇村畬鏁寸殑鍏徃涓氬姟瑙ｅ喅鏂规銆?{priority === "P0" ? "璇ラ」鐩紭鍏堢骇杈冮珮锛屽簲浼樺厛褰㈡垚鍙鍒舵渚嬨€? : ""}`
+ 33 |   };
+ 34 | }
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/student/future-planning-board.tsx
+./app/student/page.tsx 
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ./components/student/future-planning-board.tsx
+Error:   x Expected ',', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx:31:1]
+ 28 | 
+ 29 |   return {
+ 30 |     strategy: `鍥寸粫銆?{project.title}銆嶅綋鍓?${project.progress}% 鐨勫畬鎴愬害锛屼紭鍏堟妸 ${project.stage} 闃舵鐨勬牳蹇冮棴鐜仛绋炽€傚厛淇濊瘉鍏抽敭鍔熻兘鍙紨绀恒€佸彲澶嶇敤銆佸彲娌夋穩锛屽啀鏍规嵁鑰佸笀鍜屽叕鍙稿弽棣堥€愭鎵╁睍銆俙,
+ 31 |     horizontal: `妯悜涓婏紝灏嗛」鐩腑鍙鐢ㄧ殑鑳藉姏鎷嗘垚閫氱敤妯″潡锛屼緥濡傛祦绋嬬鐞嗐€佹暟鎹湅鏉裤€佹彁閱掗€氱煡銆侀檮浠舵矇娣€鍜屾潈闄愬崗浣滐紝鏈潵鍙互杩佺Щ鍒扮浉杩戜笟鍔＄嚎鎴栧叾浠栭儴闂ㄥ満鏅€俙,
+    :                  ^^
+ 32 |     vertical: `绾靛悜涓婏紝缁х画娣辨寲璇ラ」鐩墍鍦ㄤ笟鍔″満鏅紝浠?MVP 閫愭鎺ㄨ繘鍒版暟鎹垎鏋愩€佽川閲忚瘎浼般€佽嚜鍔ㄥ寲杩愯惀鍜岄暱鏈熺淮鎶ゆ満鍒讹紝褰㈡垚鏇村畬鏁寸殑鍏徃涓氬姟瑙ｅ喅鏂规銆?{priority === "P0" ? "璇ラ」鐩紭鍏堢骇杈冮珮锛屽簲浼樺厛褰㈡垚鍙鍒舵渚嬨€? : ""}`
+ 33 |   };
+ 34 | }
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/student/future-planning-board.tsx
+./app/student/page.tsx
+[browser] Uncaught ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   x Expected ',', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx:31:1]
+ 28 | 
+ 29 |   return {
+ 30 |     strategy: `鍥寸粫銆?{project.title}銆嶅綋鍓?${project.progress}% 鐨勫畬鎴愬害锛屼紭鍏堟妸 ${project.stage} 闃舵鐨勬牳蹇冮棴鐜仛绋炽€傚厛淇濊瘉鍏抽敭鍔熻兘鍙紨绀恒€佸彲澶嶇敤銆佸彲娌夋穩锛屽啀鏍规嵁鑰佸笀鍜屽叕鍙稿弽棣堥€愭鎵╁睍銆俙,
+ 31 |     horizontal: `妯悜涓婏紝灏嗛」鐩腑鍙鐢ㄧ殑鑳藉姏鎷嗘垚閫氱敤妯″潡锛屼緥濡傛祦绋嬬鐞嗐€佹暟鎹湅鏉裤€佹彁閱掗€氱煡銆侀檮浠舵矇娣€鍜屾潈闄愬崗浣滐紝鏈潵鍙互杩佺Щ鍒扮浉杩戜笟鍔＄嚎鎴栧叾浠栭儴闂ㄥ満鏅€俙,
+    :                  ^^
+ 32 |     vertical: `绾靛悜涓婏紝缁х画娣辨寲璇ラ」鐩墍鍦ㄤ笟鍔″満鏅紝浠?MVP 閫愭鎺ㄨ繘鍒版暟鎹垎鏋愩€佽川閲忚瘎浼般€佽嚜鍔ㄥ寲杩愯惀鍜岄暱鏈熺淮鎶ゆ満鍒讹紝褰㈡垚鏇村畬鏁寸殑鍏徃涓氬姟瑙ｅ喅鏂规銆?{priority === "P0" ? "璇ラ」鐩紭鍏堢骇杈冮珮锛屽簲浼樺厛褰㈡垚鍙鍒舵渚嬨€? : ""}`
+ 33 |   };
+ 34 | }
+    `----
+
+
+Caused by:
+    Syntax Error
+[browser] ./components/student/future-planning-board.tsx
+Error:   x Expected ',', got 'ident'
+    ,-[D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx:31:1]
+ 28 | 
+ 29 |   return {
+ 30 |     strategy: `鍥寸粫銆?{project.title}銆嶅綋鍓?${project.progress}% 鐨勫畬鎴愬害锛屼紭鍏堟妸 ${project.stage} 闃舵鐨勬牳蹇冮棴鐜仛绋炽€傚厛淇濊瘉鍏抽敭鍔熻兘鍙紨绀恒€佸彲澶嶇敤銆佸彲娌夋穩锛屽啀鏍规嵁鑰佸笀鍜屽叕鍙稿弽棣堥€愭鎵╁睍銆俙,
+ 31 |     horizontal: `妯悜涓婏紝灏嗛」鐩腑鍙鐢ㄧ殑鑳藉姏鎷嗘垚閫氱敤妯″潡锛屼緥濡傛祦绋嬬鐞嗐€佹暟鎹湅鏉裤€佹彁閱掗€氱煡銆侀檮浠舵矇娣€鍜屾潈闄愬崗浣滐紝鏈潵鍙互杩佺Щ鍒扮浉杩戜笟鍔＄嚎鎴栧叾浠栭儴闂ㄥ満鏅€俙,
+    :                  ^^
+ 32 |     vertical: `绾靛悜涓婏紝缁х画娣辨寲璇ラ」鐩墍鍦ㄤ笟鍔″満鏅紝浠?MVP 閫愭鎺ㄨ繘鍒版暟鎹垎鏋愩€佽川閲忚瘎浼般€佽嚜鍔ㄥ寲杩愯惀鍜岄暱鏈熺淮鎶ゆ満鍒讹紝褰㈡垚鏇村畬鏁寸殑鍏徃涓氬姟瑙ｅ喅鏂规銆?{priority === "P0" ? "璇ラ」鐩紭鍏堢骇杈冮珮锛屽簲浼樺厛褰㈡垚鍙鍒舵渚嬨€? : ""}`
+ 33 |   };
+ 34 | }
+    `----
+
+Caused by:
+    Syntax Error 
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] ./components/student/future-planning-board.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/student/future-planning-board.tsx
+./app/student/page.tsx 
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] ./components/student/future-planning-board.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/student/future-planning-board.tsx
+./app/student/page.tsx 
+⨯ ./components/student/future-planning-board.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/student/future-planning-board.tsx
+./app/student/page.tsx
+[browser] Uncaught ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx
+    1: The system cannot find the file specified. (os error 2)
+[browser] ./components/student/future-planning-board.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\Codex Project 学生进度更新\student-project-tracker\components\student\future-planning-board.tsx
+    1: The system cannot find the file specified. (os error 2) 
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
